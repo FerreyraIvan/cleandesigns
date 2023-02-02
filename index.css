@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive ;
     scroll-behavior: smooth;
 }
 
@@ -363,7 +363,7 @@ footer{
     font-size: 1.1rem;
     margin-bottom: 20px;
     margin-right: 40px;
-    
+    font-size: ;
     
 }
 
@@ -382,6 +382,23 @@ footer{
 .shipment i {
     font-size: 24px;
     padding: 5px;
+}
+#ig a{
+    text-decoration: none;
+    color: #fff;
+}
+#ig:hover{
+    background-color: #ececec;
+    color: #000;
+    width: max-content;
+    padding: 10px;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    box-shadow: #ececec 0 0 20px;
+    font-size: 110%;
+}
+#ig a:hover{
+    color: #000;
 }
 
 
@@ -431,7 +448,7 @@ footer{
     }
     footer{
         display: flex;
-        height: 45vh;
+        height: 50vh;
         flex-direction: column;
     }
 
@@ -502,7 +519,7 @@ footer{
     /* footer */
     footer{
         display: flex;
-        height: 40vh;
+        height: 50vh;
         flex-direction: column;
     }
 
