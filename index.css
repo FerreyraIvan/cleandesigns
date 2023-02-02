@@ -356,11 +356,14 @@ footer{
 }
 .contact ul{
     list-style: none;
+    display: flex;
+    flex-direction: column;
 }
 .contact ul li{
     font-size: 1.1rem;
     margin-bottom: 20px;
     margin-right: 40px;
+    
     
 }
 
